@@ -70,15 +70,15 @@ transform: translate(0,-50%);
   font-size: 22px;
 }
 .presentation{
+  /* background-image: url(https://files.slack.com/files-pri/T91QPE3BP-FFRLBQY59/hero1.png); */
   background-color: #30B5CA;
   height: 600px;
   position: relative;
-  /* background-image: url(img/image.svg);
   background-position: right;
-  background-size: cover; */
+  background-repeat: no-repeat;
   border-bottom: 3px solid black;
-}
 
+}
 #presentation-text{
   margin-top: 10%;
   width: 40%;
@@ -252,6 +252,16 @@ transform: translate(0,-50%);
   margin: auto;
   margin-top: 100px;
 }
+.presentation-data-hub h2{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.presentation-data-hub{
+  color: white;
+  font-size: 18px;
+}
 
 .tabella-up{
   float: left;
@@ -274,4 +284,58 @@ transform: translate(0,-50%);
 }
 .down-last{
 border-right: none;
+}
+.tabella-font{
+  padding: 30px;
+}
+.tabella-font strong{
+  color: white;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+
+}
+.tabella-font p{
+  color: white;
+}
+.partner-hub{
+  height: 450px;
+  width: 100%;
+  padding: 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+.partner{
+  height: 80%;
+  margin: auto;
+}
+.partner-text{
+  width: 30%;
+  float: left;
+}
+.partner-text h2{
+  font-size: 40px;
+}
+.partner-text p{
+  font-size: 18px;
+}
+.partner-logo{
+  width: 70%;
+  float:right;
+}
+.partner-logo-up{
+  float: right;
+  margin-left: 50px;
+  transform: translate(0,-50%);
+  margin-top: 30px;
+  /* margin-bottom: 10px; */
+}
+.partner-logo-down{
+  float: right;
+  margin-left: 50px;
+  transform: translate(0,-50%);
+  margin-top: 5%;
+  width: 15%;
+
 }
