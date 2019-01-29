@@ -108,15 +108,18 @@ transform: translate(0,-50%);
 .main-one{
   width: 100%;
   height: 1500px;
+  background-color: #F5F8FA;
 }
 .box-60{
   width: 60%;
   margin: auto;
   /* border: 1px solid grey; */
   position: relative;
-  text-align: center;
+
+
 }
-.box-60 img{
+.cube img{
+  margin-top: 100px;
   width: 40%;
 }
 
@@ -127,5 +130,64 @@ transform: translate(0,-50%);
 
 .cube{
   width: 40%;
-  margin-top: 100px;
+  text-align: center;
+
+}
+.free-hub{
+  height: 300px;
+  margin:1px solid black;
+  background-color: white;
+  padding: 40px;
+  margin-top: 50px
+}
+
+.free-left{
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+.free-left img{
+  width: 50%;
+  margin-bottom: 30px;
+}
+.free-right{
+  width: 60%;
+  float: right;
+}
+.free-right h4{
+  font-size: 25px;
+  margin-bottom: 20px;
+
+}
+.free-right p{
+  margin-bottom: 40px;
+}
+.free-right-items{
+  margin-top: 20px;
+}
+.free-right span{
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.fa-check-circle{
+  font-size: 18px;
+  color: #ff7a59;
+  margin-right: 5px;
+}
+
+.program{
+  margin-top: 40px;
+
+}
+
+.program-hub{
+  width: 30%;
+  height: 600px;
+  background-color: white;
+  float: left;
+}
+
+.margin-hub{
+  margin-right: 5%;
 }
