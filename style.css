@@ -54,6 +54,7 @@
   border-radius: 2px;
 }
 
+
 .secondbar{
   background-color: white;
 }
@@ -70,8 +71,14 @@ transform: translate(0,-50%);
 }
 .presentation{
   background-color: #30B5CA;
-  height: 650px;
+  height: 600px;
+  position: relative;
+  /* background-image: url(img/image.svg);
+  background-position: right;
+  background-size: cover; */
+  border-bottom: 3px solid black;
 }
+
 #presentation-text{
   margin-top: 10%;
   width: 40%;
@@ -81,6 +88,7 @@ transform: translate(0,-50%);
   font-size: 55px;
   color: white;
   margin-bottom: 20px;
+
 }
 
 #presentation-text p{
@@ -95,4 +103,29 @@ transform: translate(0,-50%);
   display: inline-block;
     margin-bottom: 20px;
     border-radius: 3px;
+}
+
+.main-one{
+  width: 100%;
+  height: 1500px;
+}
+.box-60{
+  width: 60%;
+  margin: auto;
+  /* border: 1px solid grey; */
+  position: relative;
+  text-align: center;
+}
+.box-60 img{
+  width: 40%;
+}
+
+.cube h2{
+  font-size: 30px;
+  margin-bottom: 10px
+}
+
+.cube{
+  width: 40%;
+  margin-top: 100px;
 }
