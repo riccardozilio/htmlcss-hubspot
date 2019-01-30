@@ -44,14 +44,22 @@
   color: #ff7a59;
   border: 1px solid #ff7a59;
   padding: 10px 20px;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .button-b{
   color: white;
   background-color: #ff7a59;
   padding: 10px 20px;
-  border-radius: 2px;
+  border-radius: 5px;
+}
+.button-c{
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+
 }
 
 
@@ -304,7 +312,7 @@ border-right: none;
   width: 100%;
   padding: 100px;
   background-color: white;
-  border: 1px solid black;
+
 }
 .partner{
   height: 80%;
@@ -391,4 +399,81 @@ border-right: none;
   top: -50px;
   right: 0;
   z-index: 2;
+}
+.footer{
+  height: 700px;
+  width: 100%;
+  background-color: #33475B;
+  padding-top: 100px
+
+}
+
+.footer-box{
+  height: 550px;
+  position: relative;
+
+}
+.footer-legend{
+  width: 25%;
+  height: 250px;
+  float: right;
+  /* border: 1px solid black; */
+  text-align: left;
+  color: white;
+}
+.footer-legend p{
+  margin-top: 20px;
+}
+
+.footer-legend p:hover{
+  color: lightblue;
+}
+.footer-down span:hover{
+  color: lightblue;
+}
+.fab-icon:hover{
+  color: lightblue;
+}
+.fab-icon{
+  margin-top: 20px;
+  font-size: 20px;
+margin-left: 25px;
+  float: left;
+}
+.footer-down{
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+
+  text-align: center;
+}
+.footer-down span{
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.footer-down hr{
+  border-color: ligtgrey;
+}
+.footer-down-section{
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer-down-section small{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer-down-section img{
+  float: left;
+  margin-top: 50px;
+  margin-top: 50px;
+}
+.footer-down-section span{
+  float: right;
+  margin-top: 50px;
 }
